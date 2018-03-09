@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_4SLaIB35EeiGBYg3dWfbCw" name="SGeometrica">
+    <eAnnotations xmi:id="_4YbzIB35EeiGBYg3dWfbCw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_4YbzIR35EeiGBYg3dWfbCw" source="codegen">
+        <details xmi:id="_4YbzIh35EeiGBYg3dWfbCw" key="codegenDirectory" value="/SGeometrica/src"/>
+        <details xmi:id="_5CmxgB35EeiGBYg3dWfbCw" key="AssociatedSourceCode" value="/SGeometrica/src/Circulo.java;982591885/1;/SGeometrica/src/GeometriaGrafica.java;3451942372/1;/SGeometrica/src/Rectangulo.java;2816592977/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_4lQHIB35EeiGBYg3dWfbCw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_4lQHIR35EeiGBYg3dWfbCw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_4lQHIh35EeiGBYg3dWfbCw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_4lQHIx35EeiGBYg3dWfbCw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_4lQHJB35EeiGBYg3dWfbCw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_4lQHJR35EeiGBYg3dWfbCw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_4lQHJh35EeiGBYg3dWfbCw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_4lQHJx35EeiGBYg3dWfbCw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_4lQHKB35EeiGBYg3dWfbCw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_4kggQB35EeiGBYg3dWfbCw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_4kggQR35EeiGBYg3dWfbCw" name="awt">
+        <packagedElement xmi:type="uml:Class" xmi:id="_4orOkB35EeiGBYg3dWfbCw" name="Color"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_4o-woR35EeiGBYg3dWfbCw" name="Frame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_4o-wox35EeiGBYg3dWfbCw" name="Canvas"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_4o-wpR35EeiGBYg3dWfbCw" name="Graphics"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_4kggQh35EeiGBYg3dWfbCw" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_4orOkh35EeiGBYg3dWfbCw" name="Math"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4lGWIB35EeiGBYg3dWfbCw" name="Circulo">
+      <generalization xmi:id="_A7ThMh38EeiGBYg3dWfbCw" general="_A7ThMB38EeiGBYg3dWfbCw"/>
+      <ownedAttribute xmi:id="_4pH6ih35EeiGBYg3dWfbCw" name="radio">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_4pH6kB35EeiGBYg3dWfbCw" name="resultado" type="_4orOkB35EeiGBYg3dWfbCw" association="_4puXfB35EeiGBYg3dWfbCw"/>
+      <ownedAttribute xmi:id="_4pH6kh35EeiGBYg3dWfbCw" name="cadena">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pbcgB35EeiGBYg3dWfbCw" name="Circulo" specification="_4lQHKR35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pbcgR35EeiGBYg3dWfbCw" type="_4lGWIB35EeiGBYg3dWfbCw" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.centroX = 0; this.centroY = 0; this.radio = 0;	this.colorBorde = null;	this.colorRelleno = null;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmcB35EeiGBYg3dWfbCw" name="Circulo" specification="_4lQHLR35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmcR35EeiGBYg3dWfbCw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4pkmch35EeiGBYg3dWfbCw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4pkmcx35EeiGBYg3dWfbCw" name="r">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4pkmdB35EeiGBYg3dWfbCw" type="_4lGWIB35EeiGBYg3dWfbCw" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.centroX = x;this.centroY = y;this.radio = r;this.colorBorde = null;this.colorRelleno = null;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmdR35EeiGBYg3dWfbCw" name="Circulo" specification="_4o-wkB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmdh35EeiGBYg3dWfbCw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4pkmdx35EeiGBYg3dWfbCw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4pkmeB35EeiGBYg3dWfbCw" name="r">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4pkmeR35EeiGBYg3dWfbCw" name="borde" type="_4orOkB35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4pkmeh35EeiGBYg3dWfbCw" name="relleno" type="_4orOkB35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4pkmex35EeiGBYg3dWfbCw" type="_4lGWIB35EeiGBYg3dWfbCw" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.centroX = x;this.centroY = y;this.radio = r;this.colorBorde = borde;this.colorRelleno = relleno;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmfB35EeiGBYg3dWfbCw" name="setCentro" specification="_4lQHNB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmfR35EeiGBYg3dWfbCw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4pkmfh35EeiGBYg3dWfbCw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.centroX = x;	this.centroY = y;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmfx35EeiGBYg3dWfbCw" name="setRadio" specification="_4lQHNx35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmgB35EeiGBYg3dWfbCw" name="r">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.radio = r;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmgR35EeiGBYg3dWfbCw" name="setBorde" specification="_4o-wmR35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmgh35EeiGBYg3dWfbCw" name="color" type="_4orOkB35EeiGBYg3dWfbCw"/>
+        <language>java</language>
+        <body>this.colorBorde = color;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmgx35EeiGBYg3dWfbCw" name="setRelleno" specification="_4o-wmx35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmhB35EeiGBYg3dWfbCw" name="color" type="_4orOkB35EeiGBYg3dWfbCw"/>
+        <language>java</language>
+        <body>this.colorRelleno = color;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmhR35EeiGBYg3dWfbCw" name="getCentro" specification="_4lQHOR35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmhh35EeiGBYg3dWfbCw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4pkmhx35EeiGBYg3dWfbCw" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int[] centro = new int[2];
+centro[0]= this.centroX;
+centro[1]= this.centroY;
+return centro;
+</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmiB35EeiGBYg3dWfbCw" name="getRadio" specification="_4lQHPR35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmiR35EeiGBYg3dWfbCw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return this.radio;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmih35EeiGBYg3dWfbCw" name="getBorde" specification="_4lQHPx35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmix35EeiGBYg3dWfbCw" type="_4orOkB35EeiGBYg3dWfbCw" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return this.colorBorde;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmjB35EeiGBYg3dWfbCw" name="getRelleno" specification="_4lZ4IB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmjR35EeiGBYg3dWfbCw" type="_4orOkB35EeiGBYg3dWfbCw" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return this.colorRelleno;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmjh35EeiGBYg3dWfbCw" name="tieneRelleno" specification="_4lZ4IR35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmjx35EeiGBYg3dWfbCw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return (this.colorRelleno!=null);</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmkB35EeiGBYg3dWfbCw" name="tieneBorde" specification="_4lZ4Ix35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmkR35EeiGBYg3dWfbCw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return (this.colorBorde!=null);</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmkh35EeiGBYg3dWfbCw" name="desactivarBorde" specification="_4lZ4JR35EeiGBYg3dWfbCw">
+        <language>java</language>
+        <body>this.colorBorde = null;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmkx35EeiGBYg3dWfbCw" name="desactivarRelleno" specification="_4lZ4Jh35EeiGBYg3dWfbCw">
+        <language>java</language>
+        <body>this.colorRelleno = null;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmlB35EeiGBYg3dWfbCw" name="mover" specification="_4lZ4Jx35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmlR35EeiGBYg3dWfbCw" name="dx">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4pkmlh35EeiGBYg3dWfbCw" name="dy">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>setCentro(this.centroX + dx, this.centroY + dy);</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmlx35EeiGBYg3dWfbCw" name="area" specification="_4lZ4Kh35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmmB35EeiGBYg3dWfbCw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return Math.PI * this.radio * this.radio;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmmR35EeiGBYg3dWfbCw" name="diametro" specification="_4lZ4LB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmmh35EeiGBYg3dWfbCw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return this.radio + this.radio;	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmmx35EeiGBYg3dWfbCw" name="perimetro" specification="_4lZ4Lh35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmnB35EeiGBYg3dWfbCw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return  Math.PI * 2 * this.radio;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmnR35EeiGBYg3dWfbCw" name="distancia" specification="_4orOlB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmnh35EeiGBYg3dWfbCw" name="c" type="_4lGWIB35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4pkmnx35EeiGBYg3dWfbCw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int[] centro = c.getCentro();
+return Math.sqrt(((this.centroX-centro[0]) * (this.centroX-centro[0])) + ((this.centroY-centro[1]) * (this.centroY-centro[1])) );</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmoB35EeiGBYg3dWfbCw" name="distancia" specification="_4orOlx35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmoR35EeiGBYg3dWfbCw" name="r" type="_4ljCGR35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4pkmoh35EeiGBYg3dWfbCw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int[] centro = r.getCentro();
+return Math.sqrt(((this.centroX-centro[0]) * (this.centroX-centro[0])) + ((this.centroY-centro[1]) * (this.centroY-centro[1])) );</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmox35EeiGBYg3dWfbCw" name="mezclaColor" specification="_4orOmh35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmpB35EeiGBYg3dWfbCw" name="c" type="_4lGWIB35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4pkmpR35EeiGBYg3dWfbCw" type="_4orOkB35EeiGBYg3dWfbCw" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Color resultado = null;int rojo, verde, azul;
+if (this.tieneRelleno() &amp; c.tieneRelleno()){	
+rojo = ((this.colorRelleno.getRed() +  c.getRelleno().getRed()) &lt; 255) ? (this.colorRelleno.getRed() +  c.getRelleno().getRed()) : 255; 
+verde = ((this.colorRelleno.getGreen() +  c.getRelleno().getGreen()) &lt; 255) ? (this.colorRelleno.getGreen() +  c.getRelleno().getGreen()) : 255; 
+azul = ((this.colorRelleno.getBlue() +  c.getRelleno().getBlue()) &lt; 255) ? (this.colorRelleno.getBlue() +  c.getRelleno().getBlue()) : 255; 
+resultado = new Color(rojo, verde, azul);}
+return resultado;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmph35EeiGBYg3dWfbCw" name="mezclaColor" specification="_4orOnB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmpx35EeiGBYg3dWfbCw" name="r" type="_4ljCGR35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4pkmqB35EeiGBYg3dWfbCw" type="_4orOkB35EeiGBYg3dWfbCw" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Color resultado = null;int rojo, verde, azul;
+if (this.tieneRelleno() &amp; r.tieneRelleno()){	
+rojo = ((this.colorRelleno.getRed() +  r.getRelleno().getRed()) &lt; 255) ? (this.colorRelleno.getRed() +  r.getRelleno().getRed()) : 255; 
+verde = ((this.colorRelleno.getGreen() +  r.getRelleno().getGreen()) &lt; 255) ? (this.colorRelleno.getGreen() +  r.getRelleno().getGreen()) : 255; 
+azul = ((this.colorRelleno.getBlue() +  r.getRelleno().getBlue()) &lt; 255) ? (this.colorRelleno.getBlue() +  r.getRelleno().getBlue()) : 255; 
+resultado = new Color(rojo, verde, azul);}
+return resultado;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmqR35EeiGBYg3dWfbCw" name="toString" specification="_4lZ4MB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmqh35EeiGBYg3dWfbCw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>String cadena = &quot;CIRCULO: Centro = [&quot; + this.centroX + &quot;, &quot; + this.centroY + &quot;]; Radio = &quot; + this.radio;
+if (this.tieneRelleno()){cadena = cadena + &quot;; Color relleno [= &quot; + this.colorRelleno.getRed() + &quot;, &quot; + this.colorRelleno.getGreen() + &quot;, &quot; + this.colorRelleno.getBlue() + &quot;]&quot;;}
+else{cadena = cadena + &quot;; Sin relleno&quot;;}
+if (this.tieneBorde()){cadena = cadena + &quot;; Color borde [= &quot; + this.colorBorde.getRed() + &quot;, &quot; + this.colorBorde.getGreen() + &quot;, &quot; + this.colorBorde.getBlue() + &quot;]&quot;;}
+else{cadena = cadena + &quot;; Sin borde&quot;;}
+return cadena;</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_4lQHKR35EeiGBYg3dWfbCw" name="Circulo" method="_4pbcgB35EeiGBYg3dWfbCw">
+        <eAnnotations xmi:id="_4lQHKh35EeiGBYg3dWfbCw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_4lQHKx35EeiGBYg3dWfbCw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_4lQHLB35EeiGBYg3dWfbCw" type="_4lGWIB35EeiGBYg3dWfbCw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lQHLR35EeiGBYg3dWfbCw" name="Circulo" method="_4pkmcB35EeiGBYg3dWfbCw">
+        <eAnnotations xmi:id="_4lQHMR35EeiGBYg3dWfbCw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_4lQHMh35EeiGBYg3dWfbCw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_4lQHLh35EeiGBYg3dWfbCw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4lQHLx35EeiGBYg3dWfbCw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4lQHMB35EeiGBYg3dWfbCw" name="r">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4lQHMx35EeiGBYg3dWfbCw" type="_4lGWIB35EeiGBYg3dWfbCw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lQHNB35EeiGBYg3dWfbCw" name="setCentro" method="_4pkmfB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lQHNR35EeiGBYg3dWfbCw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4lQHNh35EeiGBYg3dWfbCw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lQHNx35EeiGBYg3dWfbCw" name="setRadio" method="_4pkmfx35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lQHOB35EeiGBYg3dWfbCw" name="r">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lQHOR35EeiGBYg3dWfbCw" name="getCentro" method="_4pkmhR35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lQHOh35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4lQHOx35EeiGBYg3dWfbCw" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lQHPR35EeiGBYg3dWfbCw" name="getRadio" method="_4pkmiB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lQHPh35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lQHPx35EeiGBYg3dWfbCw" name="getBorde" method="_4pkmih35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4o-wnR35EeiGBYg3dWfbCw" type="_4orOkB35EeiGBYg3dWfbCw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lZ4IB35EeiGBYg3dWfbCw" name="getRelleno" method="_4pkmjB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4o-wnh35EeiGBYg3dWfbCw" type="_4orOkB35EeiGBYg3dWfbCw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lZ4IR35EeiGBYg3dWfbCw" name="tieneRelleno" method="_4pkmjh35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lZ4Ih35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lZ4Ix35EeiGBYg3dWfbCw" name="tieneBorde" method="_4pkmkB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lZ4JB35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lZ4JR35EeiGBYg3dWfbCw" name="desactivarBorde" method="_4pkmkh35EeiGBYg3dWfbCw"/>
+      <ownedOperation xmi:id="_4lZ4Jh35EeiGBYg3dWfbCw" name="desactivarRelleno" method="_4pkmkx35EeiGBYg3dWfbCw"/>
+      <ownedOperation xmi:id="_4lZ4Jx35EeiGBYg3dWfbCw" name="mover" method="_4pkmlB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lZ4KB35EeiGBYg3dWfbCw" name="dx">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4lZ4KR35EeiGBYg3dWfbCw" name="dy">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lZ4Kh35EeiGBYg3dWfbCw" name="area" method="_4pkmlx35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lZ4Kx35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lZ4LB35EeiGBYg3dWfbCw" name="diametro" method="_4pkmmR35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lZ4LR35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lZ4Lh35EeiGBYg3dWfbCw" name="perimetro" method="_4pkmmx35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lZ4Lx35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lZ4MB35EeiGBYg3dWfbCw" name="toString" method="_4pkmqR35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lZ4MR35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4orOlB35EeiGBYg3dWfbCw" name="distancia" method="_4pkmnR35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4orOlR35EeiGBYg3dWfbCw" name="c" type="_4lGWIB35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4orOlh35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4orOlx35EeiGBYg3dWfbCw" name="distancia" method="_4pkmoB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4orOmB35EeiGBYg3dWfbCw" name="r" type="_4ljCGR35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4orOmR35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4orOmh35EeiGBYg3dWfbCw" name="mezclaColor" method="_4pkmox35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4orOmx35EeiGBYg3dWfbCw" name="c" type="_4lGWIB35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4o-wnx35EeiGBYg3dWfbCw" type="_4orOkB35EeiGBYg3dWfbCw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4orOnB35EeiGBYg3dWfbCw" name="mezclaColor" method="_4pkmph35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4orOnR35EeiGBYg3dWfbCw" name="r" type="_4ljCGR35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4o-woB35EeiGBYg3dWfbCw" type="_4orOkB35EeiGBYg3dWfbCw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4o-wkB35EeiGBYg3dWfbCw" name="Circulo" method="_4pkmdR35EeiGBYg3dWfbCw">
+        <eAnnotations xmi:id="_4o-wlh35EeiGBYg3dWfbCw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_4o-wlx35EeiGBYg3dWfbCw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_4o-wkR35EeiGBYg3dWfbCw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4o-wkh35EeiGBYg3dWfbCw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4o-wkx35EeiGBYg3dWfbCw" name="r">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4o-wlB35EeiGBYg3dWfbCw" name="borde" type="_4orOkB35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4o-wlR35EeiGBYg3dWfbCw" name="relleno" type="_4orOkB35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4o-wmB35EeiGBYg3dWfbCw" type="_4lGWIB35EeiGBYg3dWfbCw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4o-wmR35EeiGBYg3dWfbCw" name="setBorde" method="_4pkmgR35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4o-wmh35EeiGBYg3dWfbCw" name="color" type="_4orOkB35EeiGBYg3dWfbCw"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4o-wmx35EeiGBYg3dWfbCw" name="setRelleno" method="_4pkmgx35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4o-wnB35EeiGBYg3dWfbCw" name="color" type="_4orOkB35EeiGBYg3dWfbCw"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4ljCEB35EeiGBYg3dWfbCw" name="GeometriaGrafica">
+      <generalization xmi:id="_4o-wqh35EeiGBYg3dWfbCw" general="_4o-woR35EeiGBYg3dWfbCw"/>
+      <ownedAttribute xmi:id="_4pH6lB35EeiGBYg3dWfbCw" name="c1" type="_4lGWIB35EeiGBYg3dWfbCw" association="_4puXfx35EeiGBYg3dWfbCw"/>
+      <ownedAttribute xmi:id="_4pH6lx35EeiGBYg3dWfbCw" name="r1" type="_4ljCGR35EeiGBYg3dWfbCw" association="_4puXgh35EeiGBYg3dWfbCw"/>
+      <ownedAttribute xmi:id="_4puXcB35EeiGBYg3dWfbCw" name="c2" type="_4lGWIB35EeiGBYg3dWfbCw" association="_4p3hZx35EeiGBYg3dWfbCw"/>
+      <ownedAttribute xmi:id="_4puXcx35EeiGBYg3dWfbCw" name="r2" type="_4ljCGR35EeiGBYg3dWfbCw" association="_4p3hah35EeiGBYg3dWfbCw"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmqx35EeiGBYg3dWfbCw" name="GeometriaGrafica" specification="_4ljCER35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmrB35EeiGBYg3dWfbCw" type="_4ljCEB35EeiGBYg3dWfbCw" direction="return"/>
+        <language>java</language>
+        <body>Panel panelTapiz = new Panel(null);
+	Panel panelDatos = new Panel(new GridLayout(0,1));
+		
+	c1 = new Circulo(100,100,100, Color.MAGENTA, new Color(255,128,0));
+	c2 = new Circulo(200,200,70, Color.BLACK, new Color(170, 57, 153));
+	r1 = new Rectangulo(250,50,200,40, Color.RED, new Color(228,218, 0));
+	r2 = new Rectangulo(300,130,30,220, Color.RED, new Color(0, 156, 156));
+	
+ //tapiz en el que se dibujan las cuatro figuras
+	CanvasTapiz tapiz = new CanvasTapiz();
+	tapiz.setSize(370,300);
+	panelTapiz.add(tapiz);
+	panelTapiz.setLocation(10,40);
+	panelTapiz.setSize(400,300);
+
+ //panel en el que aparecen los datos de las figuras
+ panelDatos.setLocation(410,40);
+	panelDatos.setSize(600,300);
+	panelDatos.setBackground(new Color(231, 200, 200));		
+	panelDatos.add(new Label(&quot;  DATOS DE LAS FIGURAS CONSEGUIDOS CON toString:&quot;));
+	panelDatos.add(new Label(&quot;             C1: &quot; + c1.toString()));
+	panelDatos.add(new Label(&quot;             C2: &quot; + c2.toString()));
+	panelDatos.add(new Label(&quot;             R1: &quot; + r1.toString()));
+	panelDatos.add(new Label(&quot;             R2: &quot; + r2.toString()));
+	panelDatos.add(new Label(&quot;  DISTANCIAS ENTRE CENTROS&quot;));
+	panelDatos.add(new Label(&quot;              C1 a C2:   &quot; + c1.distancia(c2)));
+	panelDatos.add(new Label(&quot;              C1 a R1:   &quot; + c1.distancia(r1)));
+	panelDatos.add(new Label(&quot;              C1 a R2:   &quot; + c1.distancia(r2)));
+	panelDatos.add(new Label(&quot;              C2 a R1:   &quot; + c2.distancia(r1)));		
+	panelDatos.add(new Label(&quot;              C2 a R2:   &quot; + c2.distancia(r2)));
+	panelDatos.add(new Label(&quot;              R1 a R2:   &quot; + r1.distancia(r2)));		
+	panelDatos.add(new Label(&quot;  CALCULOS SOBRE LAS FIGURAS&quot;));
+	panelDatos.add(new Label(&quot;              C1. Area: &quot; + c1.area() + &quot;. Perímetro: &quot; + c1.perimetro() + &quot;. Diámetro: &quot;+ c1.diametro()));
+	panelDatos.add(new Label(&quot;              C2. Area: &quot; + c2.area() + &quot;. Perímetro: &quot; + c2.perimetro() + &quot;. Diámetro: &quot;+ c2.diametro()));
+	panelDatos.add(new Label(&quot;              R1. Area: &quot; + r1.area() + &quot;. Perímetro: &quot; + r1.perimetro() ));
+	panelDatos.add(new Label(&quot;              R2. Area: &quot; + r2.area() + &quot;. Perímetro: &quot; + r2.perimetro() ));	
+
+ this.setLayout(new FlowLayout());
+	this.add(panelTapiz);
+	this.add(panelDatos);
+	
+	this.setSize(1130,430);
+	this.setResizable(false);
+	this.setVisible(true);
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmrR35EeiGBYg3dWfbCw" name="main" specification="_4ljCFR35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmrh35EeiGBYg3dWfbCw" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4pkmrx35EeiGBYg3dWfbCw" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>new GeometriaGrafica();
+  </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_4ljCER35EeiGBYg3dWfbCw" name="GeometriaGrafica" method="_4pkmqx35EeiGBYg3dWfbCw">
+        <eAnnotations xmi:id="_4ljCEh35EeiGBYg3dWfbCw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_4ljCEx35EeiGBYg3dWfbCw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_4ljCFB35EeiGBYg3dWfbCw" type="_4ljCEB35EeiGBYg3dWfbCw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4ljCFR35EeiGBYg3dWfbCw" name="main" isStatic="true" method="_4pkmrR35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4ljCFh35EeiGBYg3dWfbCw" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4ljCFx35EeiGBYg3dWfbCw" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_4ljCGB35EeiGBYg3dWfbCw" name="CanvasTapiz" visibility="package">
+        <generalization xmi:id="_4o-wqR35EeiGBYg3dWfbCw" general="_4o-wox35EeiGBYg3dWfbCw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmsB35EeiGBYg3dWfbCw" name="paint" specification="_4o-wpx35EeiGBYg3dWfbCw">
+          <ownedParameter xmi:id="_4pkmsR35EeiGBYg3dWfbCw" name="g" type="_4o-wpR35EeiGBYg3dWfbCw"/>
+          <language>java</language>
+          <body>g.setColor(c1.getBorde());
+	  g.drawOval(c1.getCentro()[0]-c1.getRadio(), c1.getCentro()[1]-c1.getRadio(), c1.getRadio()*2, c1.getRadio()*2);
+	  g.setColor(c1.getRelleno());
+	  g.fillOval(c1.getCentro()[0]-c1.getRadio()+1, c1.getCentro()[1]-c1.getRadio()+1, (c1.getRadio()*2)-2, (c1.getRadio()*2)-2);
+	  
+	  g.setColor(c2.getBorde());
+	  g.drawOval(c2.getCentro()[0]-c2.getRadio(), c2.getCentro()[1]-c2.getRadio(), c2.getRadio()*2, c2.getRadio()*2);
+	  g.setColor(c2.getRelleno());
+	  g.fillOval(c2.getCentro()[0]-c2.getRadio()+1, c2.getCentro()[1]-c2.getRadio()+1, (c2.getRadio()*2)-2, (c2.getRadio()*2)-2);
+	  	    
+	  g.setColor(r1.getBorde());
+	  g.drawRect(r1.getCentro()[0]-(r1.getBase()/2), r1.getCentro()[1]-(r1.getAltura()/2), r1.getBase(), r1.getAltura());
+	  g.setColor(r1.getRelleno());
+	  g.fillRect(r1.getCentro()[0]-(r1.getBase()/2)+1, r1.getCentro()[1]-(r1.getAltura()/2)+1, r1.getBase()-2, r1.getAltura()-2);
+	  
+	  g.setColor(r2.getBorde());
+	  g.drawRect(r2.getCentro()[0]-(r2.getBase()/2), r2.getCentro()[1]-(r2.getAltura()/2), r2.getBase(), r2.getAltura());
+	  g.setColor(r2.getRelleno());
+	  g.fillRect(r2.getCentro()[0]-(r2.getBase()/2)+1, r2.getCentro()[1]-(r2.getAltura()/2)+1, r2.getBase()-2, r2.getAltura()-2);
+
+	  g.setColor(c1.mezclaColor(c2));
+	  g.fillOval(150, 160, 15, 15);		  
+
+	  g.setColor(c1.mezclaColor(r1));
+	  g.fillOval(155, 40, 15, 15);		  
+	
+	  g.setColor(r1.mezclaColor(r2));
+	  g.fillRect(290, 40, 15, 15);		  
+	  </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_4o-wpx35EeiGBYg3dWfbCw" name="paint" method="_4pkmsB35EeiGBYg3dWfbCw">
+          <ownedParameter xmi:id="_4o-wqB35EeiGBYg3dWfbCw" name="g" type="_4o-wpR35EeiGBYg3dWfbCw"/>
+        </ownedOperation>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4ljCGR35EeiGBYg3dWfbCw" name="Rectangulo">
+      <ownedAttribute xmi:id="_4pH6mh35EeiGBYg3dWfbCw" name="centroX">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_4pH6nB35EeiGBYg3dWfbCw" name="centroY">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_4pH6nh35EeiGBYg3dWfbCw" name="base">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_4pH6oB35EeiGBYg3dWfbCw" name="altura">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_4pRrgR35EeiGBYg3dWfbCw" name="colorBorde" type="_4orOkB35EeiGBYg3dWfbCw" association="_4p3hYR35EeiGBYg3dWfbCw"/>
+      <ownedAttribute xmi:id="_4pRrgx35EeiGBYg3dWfbCw" name="colorRelleno" type="_4orOkB35EeiGBYg3dWfbCw" association="_4p3hZB35EeiGBYg3dWfbCw"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmsh35EeiGBYg3dWfbCw" name="Rectangulo" specification="_4lszEB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmsx35EeiGBYg3dWfbCw" type="_4ljCGR35EeiGBYg3dWfbCw" direction="return"/>
+        <language>java</language>
+        <body>this.centroX = 0;
+		this.centroY = 0;
+		this.setCentro(0,0);
+		this.base = 0;
+		this.setBase(0);
+		this.altura = 0;
+		this.setAltura(0);
+		this.colorBorde = null;
+		this.colorRelleno = null;
+		this.setBorde(null);
+		this.setRelleno(null);
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmtB35EeiGBYg3dWfbCw" name="Rectangulo" specification="_4lszFB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmtR35EeiGBYg3dWfbCw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4pkmth35EeiGBYg3dWfbCw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4pkmtx35EeiGBYg3dWfbCw" name="b">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4pkmuB35EeiGBYg3dWfbCw" name="a">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4pkmuR35EeiGBYg3dWfbCw" type="_4ljCGR35EeiGBYg3dWfbCw" direction="return"/>
+        <language>java</language>
+        <body>this.centroX = x;
+		this.centroY = y;
+		this.base = b;
+		this.altura = a;
+		this.colorBorde = null;
+		this.colorRelleno = null;
+		this.setCentro(x,y); this.setBase(b); this.setAltura(a); this.setBorde(null);this.setRelleno(null);
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmuh35EeiGBYg3dWfbCw" name="Rectangulo" specification="_4o-wqx35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmux35EeiGBYg3dWfbCw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4pkmvB35EeiGBYg3dWfbCw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4pkmvR35EeiGBYg3dWfbCw" name="b">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4pkmvh35EeiGBYg3dWfbCw" name="a">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4pkmvx35EeiGBYg3dWfbCw" name="borde" type="_4orOkB35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4pkmwB35EeiGBYg3dWfbCw" name="relleno" type="_4orOkB35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4pkmwR35EeiGBYg3dWfbCw" type="_4ljCGR35EeiGBYg3dWfbCw" direction="return"/>
+        <language>java</language>
+        <body>this.centroX = x;
+		this.centroY = y;
+	this.base = b;
+this.altura = a;
+	this.colorBorde = borde;
+this.colorRelleno = relleno;
+this.setCentro(x,y); this.setBase(b); this.setAltura(a); this.setBorde(borde);this.setRelleno(relleno);
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmwh35EeiGBYg3dWfbCw" name="setCentro" specification="_4lszHB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmwx35EeiGBYg3dWfbCw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4pkmxB35EeiGBYg3dWfbCw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.centroX = x;	this.centroY = y;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmxR35EeiGBYg3dWfbCw" name="setBase" specification="_4lszHx35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmxh35EeiGBYg3dWfbCw" name="b">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.base = b;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmxx35EeiGBYg3dWfbCw" name="setAltura" specification="_4lszIR35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmyB35EeiGBYg3dWfbCw" name="a">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.altura = a;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmyR35EeiGBYg3dWfbCw" name="setBorde" specification="_4o-wtR35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmyh35EeiGBYg3dWfbCw" name="color" type="_4orOkB35EeiGBYg3dWfbCw"/>
+        <language>java</language>
+        <body>this.colorBorde = color;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmyx35EeiGBYg3dWfbCw" name="setRelleno" specification="_4pH6gB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmzB35EeiGBYg3dWfbCw" name="color" type="_4orOkB35EeiGBYg3dWfbCw"/>
+        <language>java</language>
+        <body>this.colorRelleno = color;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkmzR35EeiGBYg3dWfbCw" name="getCentro" specification="_4lszIx35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkmzh35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4pkmzx35EeiGBYg3dWfbCw" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int[] centro = new int[2];
+		centro[0]= this.centroX;
+		centro[1]= this.centroY;
+		return centro;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkm0B35EeiGBYg3dWfbCw" name="getBase" specification="_4lszJx35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkm0R35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return this.base;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkm0h35EeiGBYg3dWfbCw" name="getAltura" specification="_4lszKR35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkm0x35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return this.altura;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkm1B35EeiGBYg3dWfbCw" name="getBorde" specification="_4lszKx35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkm1R35EeiGBYg3dWfbCw" type="_4orOkB35EeiGBYg3dWfbCw" direction="return"/>
+        <language>java</language>
+        <body>return this.colorBorde;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkm1h35EeiGBYg3dWfbCw" name="getRelleno" specification="_4lszLB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkm1x35EeiGBYg3dWfbCw" type="_4orOkB35EeiGBYg3dWfbCw" direction="return"/>
+        <language>java</language>
+        <body>return this.colorRelleno;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkm2B35EeiGBYg3dWfbCw" name="tieneRelleno" specification="_4lszLR35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkm2R35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return (this.colorRelleno!=null);
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkm2h35EeiGBYg3dWfbCw" name="tieneBorde" specification="_4lszLx35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkm2x35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return (this.colorBorde!=null);
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkm3B35EeiGBYg3dWfbCw" name="desactivarBorde" specification="_4lszMR35EeiGBYg3dWfbCw">
+        <language>java</language>
+        <body>this.colorBorde = null;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkm3R35EeiGBYg3dWfbCw" name="desactivarRelleno" specification="_4lszMh35EeiGBYg3dWfbCw">
+        <language>java</language>
+        <body>this.colorRelleno = null;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkm3h35EeiGBYg3dWfbCw" name="mover" specification="_4lszMx35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkm3x35EeiGBYg3dWfbCw" name="dx">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4pkm4B35EeiGBYg3dWfbCw" name="dy">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>setCentro(this.centroX + dx, this.centroY + dy);
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkm4R35EeiGBYg3dWfbCw" name="area" specification="_4lszNh35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkm4h35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return this.base * this.altura;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkm4x35EeiGBYg3dWfbCw" name="perimetro" specification="_4lszOB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkm5B35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return  this.base + this.base + this.altura + this.altura;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkm5R35EeiGBYg3dWfbCw" name="distancia" specification="_4o0_kB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkm5h35EeiGBYg3dWfbCw" name="c" type="_4lGWIB35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4pkm5x35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int[] centro = c.getCentro();
+		return Math.sqrt(((this.centroX-centro[0]) * (this.centroX-centro[0])) + ((this.centroY-centro[1]) * (this.centroY-centro[1])) );
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkm6B35EeiGBYg3dWfbCw" name="distancia" specification="_4o0_kx35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkm6R35EeiGBYg3dWfbCw" name="r" type="_4ljCGR35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4pkm6h35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int[] centro = r.getCentro();
+		return Math.sqrt(((this.centroX-centro[0]) * (this.centroX-centro[0])) + ((this.centroY-centro[1]) * (this.centroY-centro[1])) );
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkm6x35EeiGBYg3dWfbCw" name="mezclaColor" specification="_4o0_lh35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkm7B35EeiGBYg3dWfbCw" name="c" type="_4lGWIB35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4pkm7R35EeiGBYg3dWfbCw" type="_4orOkB35EeiGBYg3dWfbCw" direction="return"/>
+        <language>java</language>
+        <body>Color resultado = null;
+	int rojo, verde, azul;
+	if (this.tieneRelleno() &amp; c.tieneRelleno()){	
+	rojo = ((this.colorRelleno.getRed() +  c.getRelleno().getRed()) &lt; 255) ? (this.colorRelleno.getRed() +  c.getRelleno().getRed()) : 255; 
+	verde = ((this.colorRelleno.getGreen() +  c.getRelleno().getGreen()) &lt; 255) ? (this.colorRelleno.getGreen() +  c.getRelleno().getGreen()) : 255; 
+	azul = ((this.colorRelleno.getBlue() +  c.getRelleno().getBlue()) &lt; 255) ? (this.colorRelleno.getBlue() +  c.getRelleno().getBlue()) : 255; 
+	resultado = new Color(rojo, verde, azul);
+	}
+	return resultado;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkm7h35EeiGBYg3dWfbCw" name="mezclaColor" specification="_4o0_mB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkm7x35EeiGBYg3dWfbCw" name="r" type="_4ljCGR35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4pkm8B35EeiGBYg3dWfbCw" type="_4orOkB35EeiGBYg3dWfbCw" direction="return"/>
+        <language>java</language>
+        <body>Color resultado = null;
+	int rojo, verde, azul;
+	if (this.tieneRelleno() &amp; r.tieneRelleno()){	
+	rojo = ((this.colorRelleno.getRed() +  r.getRelleno().getRed()) &lt; 255) ? (this.colorRelleno.getRed() +  r.getRelleno().getRed()) : 255; 
+	verde = ((this.colorRelleno.getGreen() +  r.getRelleno().getGreen()) &lt; 255) ? (this.colorRelleno.getGreen() +  r.getRelleno().getGreen()) : 255; 
+	azul = ((this.colorRelleno.getBlue() +  r.getRelleno().getBlue()) &lt; 255) ? (this.colorRelleno.getBlue() +  r.getRelleno().getBlue()) : 255; 
+	resultado = new Color(rojo, verde, azul);
+	}
+	return resultado;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4pkm8R35EeiGBYg3dWfbCw" name="toString" specification="_4l19AB35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pkm8h35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>String cadena = &quot;RECTANGULO: Centro = [&quot; + this.centroX + &quot;, &quot; + this.centroY + &quot;]; Base = &quot; + this.base +&quot;; Altura = &quot; + this.altura;
+	if (this.tieneRelleno()){cadena = cadena + &quot;; Color relleno [= &quot; + this.colorRelleno.getRed() + &quot;, &quot; + this.colorRelleno.getGreen() + &quot;, &quot; + this.colorRelleno.getBlue() + &quot;]&quot;;}
+	else{cadena = cadena + &quot;; Sin relleno&quot;;}
+	if (this.tieneBorde()){cadena = cadena + &quot;; Color borde [= &quot; + this.colorBorde.getRed() + &quot;, &quot; + this.colorBorde.getGreen() + &quot;, &quot; + this.colorBorde.getBlue() + &quot;]&quot;;}
+	else{cadena = cadena + &quot;; Sin borde&quot;;}
+	return cadena;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_4lszEB35EeiGBYg3dWfbCw" name="Rectangulo" method="_4pkmsh35EeiGBYg3dWfbCw">
+        <eAnnotations xmi:id="_4lszER35EeiGBYg3dWfbCw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_4lszEh35EeiGBYg3dWfbCw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_4lszEx35EeiGBYg3dWfbCw" type="_4ljCGR35EeiGBYg3dWfbCw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lszFB35EeiGBYg3dWfbCw" name="Rectangulo" method="_4pkmtB35EeiGBYg3dWfbCw">
+        <eAnnotations xmi:id="_4lszGR35EeiGBYg3dWfbCw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_4lszGh35EeiGBYg3dWfbCw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_4lszFR35EeiGBYg3dWfbCw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4lszFh35EeiGBYg3dWfbCw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4lszFx35EeiGBYg3dWfbCw" name="b">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4lszGB35EeiGBYg3dWfbCw" name="a">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4lszGx35EeiGBYg3dWfbCw" type="_4ljCGR35EeiGBYg3dWfbCw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lszHB35EeiGBYg3dWfbCw" name="setCentro" method="_4pkmwh35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lszHR35EeiGBYg3dWfbCw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4lszHh35EeiGBYg3dWfbCw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lszHx35EeiGBYg3dWfbCw" name="setBase" method="_4pkmxR35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lszIB35EeiGBYg3dWfbCw" name="b">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lszIR35EeiGBYg3dWfbCw" name="setAltura" method="_4pkmxx35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lszIh35EeiGBYg3dWfbCw" name="a">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lszIx35EeiGBYg3dWfbCw" name="getCentro" method="_4pkmzR35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lszJB35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4lszJR35EeiGBYg3dWfbCw" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lszJx35EeiGBYg3dWfbCw" name="getBase" method="_4pkm0B35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lszKB35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lszKR35EeiGBYg3dWfbCw" name="getAltura" method="_4pkm0h35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lszKh35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lszKx35EeiGBYg3dWfbCw" name="getBorde" method="_4pkm1B35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pH6gh35EeiGBYg3dWfbCw" type="_4orOkB35EeiGBYg3dWfbCw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lszLB35EeiGBYg3dWfbCw" name="getRelleno" method="_4pkm1h35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pH6gx35EeiGBYg3dWfbCw" type="_4orOkB35EeiGBYg3dWfbCw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lszLR35EeiGBYg3dWfbCw" name="tieneRelleno" method="_4pkm2B35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lszLh35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lszLx35EeiGBYg3dWfbCw" name="tieneBorde" method="_4pkm2h35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lszMB35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lszMR35EeiGBYg3dWfbCw" name="desactivarBorde" method="_4pkm3B35EeiGBYg3dWfbCw"/>
+      <ownedOperation xmi:id="_4lszMh35EeiGBYg3dWfbCw" name="desactivarRelleno" method="_4pkm3R35EeiGBYg3dWfbCw"/>
+      <ownedOperation xmi:id="_4lszMx35EeiGBYg3dWfbCw" name="mover" method="_4pkm3h35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lszNB35EeiGBYg3dWfbCw" name="dx">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4lszNR35EeiGBYg3dWfbCw" name="dy">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lszNh35EeiGBYg3dWfbCw" name="area" method="_4pkm4R35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lszNx35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4lszOB35EeiGBYg3dWfbCw" name="perimetro" method="_4pkm4x35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4lszOR35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4l19AB35EeiGBYg3dWfbCw" name="toString" method="_4pkm8R35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4l19AR35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4o0_kB35EeiGBYg3dWfbCw" name="distancia" method="_4pkm5R35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4o0_kR35EeiGBYg3dWfbCw" name="c" type="_4lGWIB35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4o0_kh35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4o0_kx35EeiGBYg3dWfbCw" name="distancia" method="_4pkm6B35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4o0_lB35EeiGBYg3dWfbCw" name="r" type="_4ljCGR35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4o0_lR35EeiGBYg3dWfbCw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4o0_lh35EeiGBYg3dWfbCw" name="mezclaColor" method="_4pkm6x35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4o0_lx35EeiGBYg3dWfbCw" name="c" type="_4lGWIB35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4pH6hB35EeiGBYg3dWfbCw" type="_4orOkB35EeiGBYg3dWfbCw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4o0_mB35EeiGBYg3dWfbCw" name="mezclaColor" method="_4pkm7h35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4o0_mR35EeiGBYg3dWfbCw" name="r" type="_4ljCGR35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4pH6hR35EeiGBYg3dWfbCw" type="_4orOkB35EeiGBYg3dWfbCw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4o-wqx35EeiGBYg3dWfbCw" name="Rectangulo" method="_4pkmuh35EeiGBYg3dWfbCw">
+        <eAnnotations xmi:id="_4o-wsh35EeiGBYg3dWfbCw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_4o-wsx35EeiGBYg3dWfbCw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_4o-wrB35EeiGBYg3dWfbCw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4o-wrR35EeiGBYg3dWfbCw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4o-wrh35EeiGBYg3dWfbCw" name="b">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4o-wrx35EeiGBYg3dWfbCw" name="a">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_4o-wsB35EeiGBYg3dWfbCw" name="borde" type="_4orOkB35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4o-wsR35EeiGBYg3dWfbCw" name="relleno" type="_4orOkB35EeiGBYg3dWfbCw"/>
+        <ownedParameter xmi:id="_4o-wtB35EeiGBYg3dWfbCw" type="_4ljCGR35EeiGBYg3dWfbCw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4o-wtR35EeiGBYg3dWfbCw" name="setBorde" method="_4pkmyR35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4o-wth35EeiGBYg3dWfbCw" name="color" type="_4orOkB35EeiGBYg3dWfbCw"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4pH6gB35EeiGBYg3dWfbCw" name="setRelleno" method="_4pkmyx35EeiGBYg3dWfbCw">
+        <ownedParameter xmi:id="_4pH6gR35EeiGBYg3dWfbCw" name="color" type="_4orOkB35EeiGBYg3dWfbCw"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_4puXfB35EeiGBYg3dWfbCw" name="" memberEnd="_4puXfR35EeiGBYg3dWfbCw _4pH6kB35EeiGBYg3dWfbCw">
+      <ownedEnd xmi:id="_4puXfR35EeiGBYg3dWfbCw" name="" type="_4lGWIB35EeiGBYg3dWfbCw" association="_4puXfB35EeiGBYg3dWfbCw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_4puXfx35EeiGBYg3dWfbCw" name="" memberEnd="_4puXgB35EeiGBYg3dWfbCw _4pH6lB35EeiGBYg3dWfbCw">
+      <ownedEnd xmi:id="_4puXgB35EeiGBYg3dWfbCw" name="" type="_4ljCEB35EeiGBYg3dWfbCw" association="_4puXfx35EeiGBYg3dWfbCw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_4puXgh35EeiGBYg3dWfbCw" name="" memberEnd="_4puXgx35EeiGBYg3dWfbCw _4pH6lx35EeiGBYg3dWfbCw">
+      <ownedEnd xmi:id="_4puXgx35EeiGBYg3dWfbCw" name="" type="_4ljCEB35EeiGBYg3dWfbCw" association="_4puXgh35EeiGBYg3dWfbCw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_4p3hYR35EeiGBYg3dWfbCw" name="" memberEnd="_4p3hYh35EeiGBYg3dWfbCw _4pRrgR35EeiGBYg3dWfbCw">
+      <ownedEnd xmi:id="_4p3hYh35EeiGBYg3dWfbCw" name="" type="_4ljCGR35EeiGBYg3dWfbCw" association="_4p3hYR35EeiGBYg3dWfbCw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_4p3hZB35EeiGBYg3dWfbCw" name="" memberEnd="_4p3hZR35EeiGBYg3dWfbCw _4pRrgx35EeiGBYg3dWfbCw">
+      <ownedEnd xmi:id="_4p3hZR35EeiGBYg3dWfbCw" name="" type="_4ljCGR35EeiGBYg3dWfbCw" association="_4p3hZB35EeiGBYg3dWfbCw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_4p3hZx35EeiGBYg3dWfbCw" name="" memberEnd="_4p3haB35EeiGBYg3dWfbCw _4puXcB35EeiGBYg3dWfbCw">
+      <ownedEnd xmi:id="_4p3haB35EeiGBYg3dWfbCw" name="" type="_4ljCEB35EeiGBYg3dWfbCw" association="_4p3hZx35EeiGBYg3dWfbCw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_4p3hah35EeiGBYg3dWfbCw" name="" memberEnd="_4p3hax35EeiGBYg3dWfbCw _4puXcx35EeiGBYg3dWfbCw">
+      <ownedEnd xmi:id="_4p3hax35EeiGBYg3dWfbCw" name="" type="_4ljCEB35EeiGBYg3dWfbCw" association="_4p3hah35EeiGBYg3dWfbCw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_A7ThMB38EeiGBYg3dWfbCw" name="Figura2D"/>
+    <profileApplication xmi:id="_4YbzIx35EeiGBYg3dWfbCw">
+      <eAnnotations xmi:id="_4YlkIB35EeiGBYg3dWfbCw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_4YlkIR35EeiGBYg3dWfbCw" base_Package="_4SLaIB35EeiGBYg3dWfbCw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Array xmi:id="_4lQHPB35EeiGBYg3dWfbCw" base_Element="_4lQHOR35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:Array xmi:id="_4lszJh35EeiGBYg3dWfbCw" base_Element="_4lszIx35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:Reference xmi:id="_4orOkR35EeiGBYg3dWfbCw" base_Element="_4orOkB35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:Reference xmi:id="_4orOkx35EeiGBYg3dWfbCw" base_Element="_4orOkh35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:Reference xmi:id="_4o-woh35EeiGBYg3dWfbCw" base_Element="_4o-woR35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:Reference xmi:id="_4o-wpB35EeiGBYg3dWfbCw" base_Element="_4o-wox35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:Reference xmi:id="_4o-wph35EeiGBYg3dWfbCw" base_Element="_4o-wpR35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4pH6ix35EeiGBYg3dWfbCw" base_Element="_4pH6ih35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4pH6kR35EeiGBYg3dWfbCw" base_Element="_4pH6kB35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4pH6kx35EeiGBYg3dWfbCw" base_Element="_4pH6kh35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_4pH6lR35EeiGBYg3dWfbCw" base_Property="_4pH6lB35EeiGBYg3dWfbCw" siblings="_4puXcB35EeiGBYg3dWfbCw" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4pH6lh35EeiGBYg3dWfbCw" base_Element="_4pH6lB35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_4pH6mB35EeiGBYg3dWfbCw" base_Property="_4pH6lx35EeiGBYg3dWfbCw" siblings="_4puXcx35EeiGBYg3dWfbCw" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4pH6mR35EeiGBYg3dWfbCw" base_Element="_4pH6lx35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4pH6mx35EeiGBYg3dWfbCw" base_Element="_4pH6mh35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4pH6nR35EeiGBYg3dWfbCw" base_Element="_4pH6nB35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4pH6nx35EeiGBYg3dWfbCw" base_Element="_4pH6nh35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4pRrgB35EeiGBYg3dWfbCw" base_Element="_4pH6oB35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4pRrgh35EeiGBYg3dWfbCw" base_Element="_4pRrgR35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4pRrhB35EeiGBYg3dWfbCw" base_Element="_4pRrgx35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_4puXcR35EeiGBYg3dWfbCw" base_Property="_4puXcB35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4puXch35EeiGBYg3dWfbCw" base_Element="_4puXcB35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_4puXdB35EeiGBYg3dWfbCw" base_Property="_4puXcx35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4puXdR35EeiGBYg3dWfbCw" base_Element="_4puXcx35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:Reference xmi:id="_4puXfh35EeiGBYg3dWfbCw" base_Element="_4puXfB35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:Reference xmi:id="_4puXgR35EeiGBYg3dWfbCw" base_Element="_4puXfx35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:Reference xmi:id="_4p3hYB35EeiGBYg3dWfbCw" base_Element="_4puXgh35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:Reference xmi:id="_4p3hYx35EeiGBYg3dWfbCw" base_Element="_4p3hYR35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:Reference xmi:id="_4p3hZh35EeiGBYg3dWfbCw" base_Element="_4p3hZB35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:Reference xmi:id="_4p3haR35EeiGBYg3dWfbCw" base_Element="_4p3hZx35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:Reference xmi:id="_4p3hbB35EeiGBYg3dWfbCw" base_Element="_4p3hah35EeiGBYg3dWfbCw"/>
+  <UMLLabProfile:Reference xmi:id="_A7ThMR38EeiGBYg3dWfbCw" base_Element="_A7ThMB38EeiGBYg3dWfbCw"/>
+</xmi:XMI>
