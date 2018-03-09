@@ -7,6 +7,8 @@ import java.awt.GridLayout;
 import java.awt.Label;
 import java.awt.Panel;
 
+//Cambio
+
 public class GeometriaGrafica extends Frame {
    public Circulo c1, c2;
    public Rectangulo r1, r2;
