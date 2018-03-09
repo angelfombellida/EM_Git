@@ -4,6 +4,8 @@ public class Circulo extends Figura2D {
    public int radio;
    public Color resultado;
    public String cadena;
+
+//Cambio 2
    public Circulo () {
       this.centroX = 0; this.centroY = 0; this.radio = 0;	this.colorBorde = null;	this.colorRelleno = null;}
    
